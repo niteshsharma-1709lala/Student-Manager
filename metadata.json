@@ -1,0 +1,6 @@
+{
+  "name": "Student Management System",
+  "description": "A simple React application to manage student details like Roll Number, Name, and Marks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

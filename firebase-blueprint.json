@@ -1,0 +1,24 @@
+{
+  "entities": {
+    "Student": {
+      "title": "Student",
+      "description": "Student record",
+      "type": "object",
+      "properties": {
+        "rollNumber": { "type": "string" },
+        "name": { "type": "string" },
+        "marks": { "type": "number" },
+        "honorScore": { "type": "number" },
+        "attendance": { "type": "number" },
+        "ownerId": { "type": "string" }
+      },
+      "required": ["rollNumber", "name", "marks", "honorScore", "attendance", "ownerId"]
+    }
+  },
+  "firestore": {
+    "/students/{studentId}": {
+      "schema": "Student",
+      "description": "Stores student records."
+    }
+  }
+}
